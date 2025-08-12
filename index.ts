@@ -1,13 +1,16 @@
 import express from "express";
-import * as modules from './src/modules';
+import { router as onboardingRoutes } from "./src/modules/onboarding";
 
 const app = express();
 
+// Default route
 app.get("/", (req, res) => {
-    res.send("Hello World");
+  res.send("Hello World");
 });
+
+// Use onboarding routes under /onboarding
+app.use("/onboarding", onboardingRoutes);
 
 app.listen(3000, () => {
-    console.log("Server is running on port 3000" );
+  console.log("Server is running on port 3000");
 });
-

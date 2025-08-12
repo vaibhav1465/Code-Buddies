@@ -1,1 +1,10 @@
-export * from './onbaording.controller';
+import { Router, Request, Response } from "express";
+import OnboardingController from "./onbaording.controller";
+
+const router = Router();
+
+router.get("/user", (req: Request, res: Response) => {
+  OnboardingController.signUp(req, res);
+});
+
+export default router; 

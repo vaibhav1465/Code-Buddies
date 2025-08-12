@@ -1,9 +1,14 @@
-import { Router } from "express";
+import { Request, Response } from "express";
 
-const router = Router();
+class OnboardingController {
+  public signUp(req: Request, res: Response): void {
+    try {
+      res.send("Hello World");
+    } catch (error) {
+      console.error("Error in signUp:", error);
+      res.status(500).send("Internal Server Error");
+    }
+  }
+}
 
-router.get("/user", (req, res) => {
-    res.send("Hello World change");
-});
-
-export default router;
+export default new OnboardingController(); // exporting an instance
