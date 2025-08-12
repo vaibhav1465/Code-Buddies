@@ -1,0 +1,28 @@
+{
+  "name": "codebuddies",
+  "version": "1.0.0",
+  "description": "A teammate, but for developers.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "Typescript"
+  ],
+  "author": "Vaibhav Kaushal",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
