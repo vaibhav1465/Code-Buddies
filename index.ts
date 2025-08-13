@@ -1,6 +1,8 @@
 import express from "express";
 import onboardingRoutes  from "./src/modules/onboarding";
 
+
+// Setup Data Base
 const app = express();
 
 // Default route
