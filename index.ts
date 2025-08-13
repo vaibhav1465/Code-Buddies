@@ -3,6 +3,7 @@ import onboardingRoutes  from "./src/modules/onboarding";
 
 
 // Setup Data Base
+// Setup Server
 const app = express();
 
 // Default route
