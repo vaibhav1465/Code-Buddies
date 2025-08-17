@@ -8,7 +8,7 @@ const app = express();
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("Hello World KK");
+  res.send("Hello World KK ll");
 });
 
 // Use onboarding routes under /onboarding
