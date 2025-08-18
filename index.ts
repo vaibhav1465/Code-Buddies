@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
+// ses
+
 // Use onboarding routes under /onboarding
 app.use("/onboarding", onboardingRoutes);
 
