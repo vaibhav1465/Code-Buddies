@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
 });
 
 // ses
+// deployment
 
 // Use onboarding routes under /onboarding
 app.use("/onboarding", onboardingRoutes);
