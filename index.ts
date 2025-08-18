@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
 
 // ses
 // deployment
+// cron jobs
 
 // Use onboarding routes under /onboarding
 app.use("/onboarding", onboardingRoutes);
