@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 
 // payment
 // order
+// rajor pay
 
 // Use onboarding routes under /onboarding
 app.use("/onboarding", onboardingRoutes);
